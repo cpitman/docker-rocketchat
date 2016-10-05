@@ -1,6 +1,6 @@
 FROM rocketchat/rocket.chat
 
-ENV MONGO_OPLOG_URL=mongo://mongo:27017/local
+ENV MONGO_OPLOG_URL=mongodb://mongo:27017/local
 COPY ./scripts/ .
 
 USER root
