@@ -1,4 +1,4 @@
-FROM rocketchat/rocket.chat
+FROM rocketchat/rocket.chat:release-candidate
 
 ENV MONGO_OPLOG_URL=mongodb://mongo:27017/local
 COPY ./scripts/ .
