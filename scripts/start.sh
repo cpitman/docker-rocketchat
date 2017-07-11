@@ -5,4 +5,4 @@ if [ -z "$INSTANCE_IP" ]; then
     export INSTANCE_IP=`hostname -i`
 fi
 
-exec node main.js
+exec node --prof main.js
